@@ -45,6 +45,7 @@ if __name__ == '__main__':
     links_list = []
     csv_header_list = ['"wikipedia_page"','"website"']
     
+    #xpath_config - correspondent way to tag with link to web site of Company
     xpath_config = '//div[@id="mw-content-text"]/table[contains(@class,"infobox")]//\
                                 th[text()="Website"]/following-sibling::td[1]//a/@href'
        
